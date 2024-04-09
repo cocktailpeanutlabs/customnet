@@ -24,11 +24,11 @@ module.exports = async (kernel) => {
         uri: "https://huggingface.co/TencentARC/CustomNet/resolve/main/customnet_v1.pt?download=true",
         dir: "app"
       }
-    }, {
-      method: "fs.share",
-      params: {
-        venv: "app/env"
-      }
+//    }, {
+//      method: "fs.share",
+//      params: {
+//        venv: "app/env"
+//      }
     }, {
       method: "notify",
       params: {
